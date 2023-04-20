@@ -1,27 +1,28 @@
-//import React, { useState } from "react";
-
-function Card(/* props */) {
-  /* const [showInfo, setShowInfo] = useState(false);
-
-  const toggleInfo = () => {
-    setShowInfo(!showInfo);
-  }; */
-
+function Card() {
   return (
-    <div className="card m-3">
-      {/* <img
-        style={{ height: "20rem", width: "20rem" }}
-        src={process.env.PUBLIC_URL + "/images/todo6.png"}
-        className="card-img-top"
-        alt={props.name}
-      />
-      <div className="card-body">
-        <h5 className="card-title">{props.name}</h5>
-        <button className="btn btn-primary" onClick={toggleInfo}>
-          {showInfo ? "Hide Info" : "Show Info"}
-        </button>
-        {showInfo && <p className="card-text">{props.info}</p>}
-      </div> */}
+    <div className="container-fluid">
+      <div className="card" style={{ width: "18rem", height: "38rem" }}>
+        {/* Imagen Card */}
+        <img
+          src={process.env.PUBLIC_URL + "images/todo6.png"}
+          className="card-img-top"
+          style={{ height: "16rem" }}
+          alt="card"
+        />
+        <div className="card-body">
+          <h5 className="card-title">Nombre Personaje</h5>
+        </div>
+        <ul className="list-group list-group-flush">
+          <li className="list-group-item">Id:</li>
+          <li className="list-group-item">Age:</li>
+          <li className="list-group-item">Galaxia:</li>
+          <li className="list-group-item">Facction:</li>
+        </ul>
+        {/*<div className="card-body">
+           <a href={"#"} className="card-link">Card link</a>
+    <a href="#" className="card-link">Another link</a> 
+        </div>*/}
+      </div>
     </div>
   );
 }

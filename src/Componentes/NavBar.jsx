@@ -3,7 +3,7 @@ import React from "react";
 const NavBar = () => {
   return (
     <div>
-      <nav className="navbar bg-dark p-3">
+      <nav className="navbar bg-dark p-3 container-fluid">
         <div className="container-fluid justify-content-around">
           {/* Formulario izquierda */}
           <form className="form-inline d-flex" role="search">
