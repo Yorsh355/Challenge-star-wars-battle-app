@@ -18,7 +18,7 @@ const Cards = () => {
           className="col border border-danger d-flex justify-content-center align-items-center"
           style={{ height: "40rem", width: "10rem" }}
         >
-          <h1>VS</h1>
+          <h1 className="text-warning">VS</h1>
         </div>
 
         {/* Card derecha */}
